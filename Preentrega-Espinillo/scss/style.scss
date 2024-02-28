@@ -1,0 +1,52 @@
+@import "./css/style.css";
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;800&display=swap');
+@import "./variable/variables";
+@import "./utilidades/extends";
+
+/* Estilos para pantallas de hasta 952px */
+@media (max-width: 999px) {
+    .enlace {
+        padding-left: 10px;
+    }
+}
+/* Estilos generales */
+* {
+    @extend %todo;
+}
+
+//body
+body {
+    @extend %body;
+}
+
+//Contenido de jumbotron
+.Biblioteca {
+    @extend %jumbotron;
+}
+
+.form-group {
+    margin-bottom: 30px;
+}
+
+footer {
+    @extend %foter
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
